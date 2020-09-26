@@ -14,12 +14,12 @@ body{
 }
 .trees{
     height: 100vh;
-    width: 100%;
+    width: 800vw;
     background-image: url(trees.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     position: absolute;
     top: -150px;
+    animation: carMove linear 30s infinite;
 }
 .tracks{
     height: 30vh;
